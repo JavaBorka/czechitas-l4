@@ -51,3 +51,39 @@ vypisJmenoUzivatele.innerHTML = "Uživatelské jméno: " + parsedEmail.userName;
 
 let vypisDomenu = document.querySelector('.domain');
 vypisDomenu.innerHTML = 'Doména: ' + parsedEmail.domain;
+
+// ÚKOL 3 - DORUČOVÁNÍ
+
+// Vytvořte webovou stránku, kde uživatel zadá svoji adresu například pro účely doručení objednaného zboží. Požaduje ulici, číslo domu, město a PSČ.
+//Uložte všechny údaje do vhodně pojmenovaných proměnných.
+// Ze zadanách údajů sestavte pomocí interpolace řetězeců obsahující HTML ve formátu jako níže:
+/*
+<address>
+	<p>Pod Stájemi 67</p>
+	<p>12754 Klysnov</p>
+</address>
+*/
+
+/*
+const ulice = prompt('Zadej svojí ulici');
+const cisloDomu = prompt('Zadej číslo domu');
+const mesto = prompt('Zadej město');
+const psc = prompt('Zadej psc');
+
+ const address = {
+    street: ulice,
+    houseNo: cisloDomu,
+    town: mesto,
+    zip: psc,
+ }
+
+ const {street, houseNo, town, zip} = address;
+
+ const vypis = `
+    <address>
+        <p> ${street} ${houseNo} </p>
+        <p> ${town} ${zip} </p>
+    </address>
+`
+document.body.innerHTML = vypis;
+*/
